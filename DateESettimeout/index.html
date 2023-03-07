@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color</title>
+    <style>
+        header {
+            height: 200px;
+            width: 100%;
+            background-color: blue;
+        }
+
+        #quadrado {
+            height: 100px;
+            width: 50px;
+            background-color: black;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="quadrado" ondblclick="mudarCor()"></div>
+        <input type="text" id="valor" placeholder="Digite seu nome"></input>
+        <input type="button" onClick="verde()" id="verde">Verde</input>
+        <input type="button" id="azul" onClick="azul()">Azul</input>
+    </header>
+    <button id="sorteio" onclick="sorteio()">Sorteio</button>
+
+    <script src="main.js" async></script>
+</body>
+
+</html>

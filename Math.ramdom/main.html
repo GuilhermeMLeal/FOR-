@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <article id="oi" onclick="clique()"> Escreva aqui</article>
+    <main>
+        <h1>Escreva Aqui</h1>
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+
+    </script>
+    <script>
+        $('#oi').css({
+            'cursor': 'pointer'
+        })
+        function clique() {
+            $('#oi').text('Boa Tarde!')
+        }
+        $(document).ready(function () {
+
+        })
+    </script>
+</body>
+
+</html>
